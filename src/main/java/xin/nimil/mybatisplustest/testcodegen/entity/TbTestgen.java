@@ -1,9 +1,10 @@
 package xin.nimil.mybatisplustest.testcodegen.entity;
 
-import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+
+import java.io.Serializable;
 
 /**
  * <p>
@@ -19,6 +20,8 @@ import lombok.experimental.Accessors;
 public class TbTestgen implements Serializable {
 
     private static final long serialVersionUID = 1L;
+
+    private Long id;
 
     private String testgen;
 
